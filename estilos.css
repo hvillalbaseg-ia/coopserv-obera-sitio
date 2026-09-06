@@ -1,0 +1,76 @@
+:root {
+  --azul: #1f3864;
+  --azul-claro: #2e5496;
+  --gris: #f2f2f2;
+  --texto: #2b2b2b;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--texto);
+  margin: 0;
+  background: #fff;
+  line-height: 1.5;
+}
+header {
+  background: var(--azul);
+  color: #fff;
+  padding: 18px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .marca {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+header .marca span { color: #9fc0ff; }
+nav a {
+  color: #e6edf9;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: .95rem;
+}
+nav a:hover { text-decoration: underline; }
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+h1 { color: var(--azul); font-size: 1.8rem; margin-top: 0; }
+h2 { color: var(--azul-claro); font-size: 1.25rem; margin-top: 2rem; }
+.lead { font-size: 1.05rem; color: #444; }
+.card {
+  background: var(--gris);
+  border-left: 4px solid var(--azul-claro);
+  padding: 16px 20px;
+  border-radius: 4px;
+  margin: 18px 0;
+}
+table { border-collapse: collapse; width: 100%; margin: 14px 0; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #ddd; }
+th { color: var(--azul); }
+footer {
+  text-align: center;
+  color: #888;
+  font-size: .85rem;
+  padding: 26px;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+.badge {
+  display: inline-block;
+  background: #fff2cc;
+  color: #7a5c00;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: .8rem;
+  margin-left: 8px;
+}
+a.doc {
+  display: inline-block;
+  margin: 6px 0;
+  color: var(--azul-claro);
+  font-weight: 600;
+}
