@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /portal-asociados/
+Disallow: /backup/
+Disallow: /admin-sistemas/
